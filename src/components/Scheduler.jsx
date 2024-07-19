@@ -191,14 +191,14 @@ const Scheduler = () => {
         </div>
       )}
 
-      {tasks.length > 0 && (
+      {/* {tasks.length > 0 && (
         <div className="mt-6">
           <h2 className="text-2xl font-semibold text-center text-gray-800 mb-4">
             Gantt Chart
           </h2>
           <GanttChart tasks={tasks} />
         </div>
-      )}
+      )} */}
     </div>
   );
 };
