@@ -132,6 +132,7 @@ const Scheduler = () => {
           <input
             type="number"
             value={width}
+            required
             onChange={(e) => setWidth(e.target.value)}
             className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-400 focus:ring focus:ring-blue-200 focus:ring-opacity-50"
           />
@@ -143,6 +144,7 @@ const Scheduler = () => {
           <input
             type="number"
             value={height}
+            required
             onChange={(e) => setHeight(e.target.value)}
             className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-400 focus:ring focus:ring-blue-200 focus:ring-opacity-50"
           />
@@ -154,6 +156,7 @@ const Scheduler = () => {
           <input
             type="number"
             value={masons}
+            required
             onChange={(e) => setMasons(e.target.value)}
             className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-400 focus:ring focus:ring-blue-200 focus:ring-opacity-50"
           />
